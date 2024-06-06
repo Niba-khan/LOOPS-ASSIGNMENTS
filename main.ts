@@ -31,8 +31,7 @@ for(let i = 1; i <= 10; i++){
 
 myWork.push(lesson);
 }
-console.log(myWork);{
-};
+console.log(myWork);
 
 //^^^^^^^^^^^^^^^^^^^^^^^Task 2^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 /*. Guessing Game (Using while loop )
@@ -67,7 +66,7 @@ while(!correctGusess && indexNumber < preDefinedGuesses.length){
     let currentGuesses = preDefinedGuesses[indexNumber];
      if(currentGuesses === randomNum){
       correctGusess = true;
-        console.log("congratulation you guessed the correct number", randomNum)
+        console.log("congratulation you guessed the correct number", randomNum);
      }
      else if(currentGuesses < randomNum){
         console.log("your current guesses is to low!")
@@ -79,7 +78,7 @@ while(!correctGusess && indexNumber < preDefinedGuesses.length){
      indexNumber++;
  }
  if (!correctGusess) {
-   console.log("Sorry, you did not correct guess number", randomNum) 
+   console.log("Sorry, you did not correct guess number", randomNum);
 }
 
 //^^^^^^^^^^^^^^^^^^^^^^^Task 03^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -99,7 +98,7 @@ as long as the counter is less than 100.*/
  let step:number = 10;
 
  do{
-   console.log("COUNTER", counter )
+   console.log("COUNTER", counter );
     counter += step;
  }while (counter < 100);
 
@@ -148,13 +147,13 @@ o Output each array element directly into the console*/
 
 let myArray: number[] = [];
 
-console.log("~~~~~~Using for Loops~~~~~~~~~~")
+console.log("~~~~~~Using for Loops~~~~~~~~~~");
 
 for(let i = 1; i <= 10; i++){
    myArray.push(i);
 }
 
-console.log("myArray", myArray)
+console.log("myArray", myArray);
 
 for (let n = 0; n < myArray.length; n++) {
 console.log("Index:", n, "Value:", myArray[n]);
@@ -162,6 +161,6 @@ console.log("Index:", n, "Value:", myArray[n]);
 
 for (let E of myArray) {
 console.log("Value:", E);
-}
+};
 
 
